@@ -1,12 +1,12 @@
-var containerimg = document.getElementById('containerimg');
-var containerbtn = document.getElementById('containerbtn');
-var containerform = document.getElementById('containerform');
+var img = document.getElementById('containerimg');
+var btn = document.getElementById('containerbtn');
+var form = document.getElementById('containerform');
 
 function login(){
-        if (containerform.style.display=='none'){
-                containerform.style.display='block';
-                containerimg.style.height='30vh';
-        } else {containerform.style.display='none'
-                containerimg.style.height='60vh';}
+        if (form.style.display=='none'){
+                form.style.display='block';
+                img.style.height='30vh';
+        } else {form.style.display='none'
+                img.style.height='60vh';}
 
 }

@@ -1,3 +1,11 @@
+:root{
+    --corm1: #D9B448;
+    --corm2: #D9984A;
+    --corm3: #8C6B42;
+    --corm4: #731717;
+    --corm5: #0D0D0D;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -20,8 +28,6 @@ main{
 section{
     background-color: lightgrey;
     width: 80vw;
-    margin-top: 10%;
-    margin-bottom: 10%;
     display: block;
     border-radius: 10px;
 
@@ -37,8 +43,15 @@ section{
 /*div botao*/
 #containerbtn{
     display: block;
+    background-color: var(--corm1);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 5px 10px var(--corm5);
+}
+#containerbtn:hover{
+    cursor: pointer;
 }
 #containerbtn a{
+    color: var(--corm4);
     text-align: center;
     text-decoration: none;
     margin: 25px;
