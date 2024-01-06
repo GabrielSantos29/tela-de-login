@@ -50,12 +50,13 @@ section{
 #containerbtn:hover{
     cursor: pointer;
 }
-#containerbtn a{
+#containerbtn h1{
     color: var(--corm4);
     text-align: center;
     text-decoration: none;
-    margin: 25px;
+    padding: 25px;
 }
+
 /*formulário*/
 #containerform{
     display: none;
@@ -68,7 +69,30 @@ form{
     padding: 25px;
 }
 .box{
-    margin-top: 5px;
+    padding: 10px;
     width: 80%;
     height: 25px;
+    border-radius: 10px 0px;
+}
+label{
+    color: var(--corm5);
+    font-size: 1.1em;
+    font-weight: 600;
+}
+input{
+    border: 1px solid var(--corm5);
+}
+.btn{
+    margin-top: 20px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
+    border: 2px solid var(--corm4);
+    background-color: var(--corm1);
+    color: var(--corm4);
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.btn:hover{
+    border: 2px dashed var(--corm4);
 }

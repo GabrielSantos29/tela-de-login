@@ -11,18 +11,17 @@
         <section>
             <div  id="containerimg">
             </div>
-            <div id="containerbtn" onclick="login()">
-                <a href="#">
-                    <h1>Login</h1>
-                </a>
+            <div id="containerbtn" onclick="login()">             
+               <h1>Login</h1>
             </div>
             <div id="containerform">
-                <form action="#" method="post" autocomplete="on">
+                <form action="teste.php" method="post" autocomplete="on">
                     <p>Seja bem vindo(a)! Faça o login para aceessar sua conta.</p>
-                    <label for="iusu" class="box">Usuário</label>
-                    <input type="text" name="usu" id="iusu" class="box">
-                    <label for="ipassword" class="box">Senha</label>
-                    <input type="password" name="password" id="ipassword" class="box">
+                    <label for="iemail" class="box">E-mail :</label>
+                    <input type="email" name="email" id="iemail" class="box" placeholder="exemplo@gmailcom">                  
+                    <label for="ipassword" class="box">Senha :</label>
+                    <input type="password" name="password" id="ipassword" class="box" placeholder="********">
+                    <button type="submit" class="btn">Entrar</button>
                 </form>
             </div>
         </section>
