@@ -38,6 +38,7 @@ section{
 /*formulário*/
 #containerform{
     border: 1px dashed black;
+    display: none;
 }
 form{
     display: flex;
