@@ -8,6 +8,7 @@
 /*container*/
 body, main{
     width: 100vw;
+    height: 100vh;
     background-image: url(../imagens/fudo-mobile.jpg);
     background-size: cover;
 }
@@ -30,7 +31,7 @@ section{
     height: 60vh;
     background-color: black;
     background-image: url(../imagens/pexels-pixabay-63328.jpg);
-    background-size: contain;
+    background-size: cover;
     border-radius: 10px 10px 0px 0px;
 }
 /*div botao*/
