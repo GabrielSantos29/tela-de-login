@@ -31,6 +31,7 @@ section{
     background-color: black;
     background-image: url(../imagens/pexels-pixabay-63328.jpg);
     background-size: contain;
+    border-radius: 10px 10px 0px 0px;
 }
 /*div botao*/
 #containerbtn{
