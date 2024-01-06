@@ -2,9 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 /*container*/
 body, main{
-    width: 96vw;
+    width: 100vw;
+    background-image: url(../imagens/fudo-mobile.jpg);
+    background-size: cover;
 }
 main{
     display: flex;
@@ -23,12 +28,13 @@ section{
 /*div imagem*/
 #containerimg{
     height: 60vh;
-    border: 1px dashed black;
+    background-color: black;
+    background-image: url(../imagens/pexels-pixabay-63328.jpg);
+    background-size: contain;
 }
 /*div botao*/
 #containerbtn{
     display: block;
-    border: 1px dashed black;
 }
 #containerbtn a{
     text-align: center;
@@ -37,7 +43,6 @@ section{
 }
 /*formulário*/
 #containerform{
-    border: 1px dashed black;
     display: none;
 }
 form{
