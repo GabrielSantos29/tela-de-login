@@ -18,9 +18,9 @@
                 <form action="teste.php" method="post" autocomplete="on">
                     <p>Seja bem vindo(a)! Faça o login para aceessar sua conta.</p>
                     <label for="iemail" class="box">E-mail :</label>
-                    <input type="email" name="email" id="iemail" class="box" placeholder="exemplo@gmailcom">                  
+                    <input type="email" name="email" id="iemail" class="box" placeholder="exemplo@gmailcom" required>                  
                     <label for="ipassword" class="box">Senha :</label>
-                    <input type="password" name="password" id="ipassword" class="box" placeholder="********">
+                    <input type="password" name="password" id="ipassword" class="box" placeholder="********" required minlength="7">
                     <button type="submit" class="btn">Entrar</button>
                 </form>
             </div>
