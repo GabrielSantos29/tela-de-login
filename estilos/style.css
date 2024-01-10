@@ -30,7 +30,7 @@ section{
     width: 80vw;
     display: block;
     border-radius: 10px;
-
+    overflow: hidden;
 }
 /*div imagem*/
 #containerimg{
@@ -38,7 +38,7 @@ section{
     background-color: black;
     background-image: url(../imagens/pexels-pixabay-63328.jpg);
     background-size: cover;
-    border-radius: 10px 10px 0px 0px;
+    background-position: center bottom;
 }
 /*div botao*/
 #containerbtn{

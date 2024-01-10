@@ -1,0 +1,39 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+    section{
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #containerimg{
+        width: 40%;
+    }
+    #containerbtn{
+        display: none;
+    }
+    #containerform{
+        display: block;
+        margin-left: 5%;
+    }
+}
+
+@media  screen and (min-width:992px) {
+    section{
+        width: 60vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #containerimg{
+        width: 40%;
+    }
+    #containerbtn{
+        display: none;
+    }
+    #containerform{
+        display: block;
+        margin-left: 8%;
+    }
+}
