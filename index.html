@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaQueries.css">
 </head>
@@ -12,15 +13,16 @@
         <section>
             <div  id="containerimg">
             </div>
-            <div id="containerbtn" onclick="login()">             
-               <h1>Login</h1>
-            </div>
             <div id="containerform">
                 <form action="teste.php" method="post" autocomplete="on">
                     <p>Seja bem vindo(a)! Faça o login para aceessar sua conta.</p>
-                    <label for="iemail" class="box">E-mail :</label>
+                    <label for="iemail" class="box"><span class="material-symbols-outlined">
+                        person
+                        </span> E-mail :</label>
                     <input type="email" name="email" id="iemail" class="box" placeholder="exemplo@gmailcom" required>                  
-                    <label for="ipassword" class="box">Senha :</label>
+                    <label for="ipassword" class="box"><span class="material-symbols-outlined">
+                        vpn_key
+                        </span> Senha :</label>
                     <input type="password" name="password" id="ipassword" class="box" placeholder="********" required minlength="7">
                     <button type="submit" class="btn">Entrar</button>
                 </form>

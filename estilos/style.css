@@ -34,32 +34,16 @@ section{
 }
 /*div imagem*/
 #containerimg{
-    height: 60vh;
+    height: 30vh;
     background-color: black;
     background-image: url(../imagens/pexels-pixabay-63328.jpg);
     background-size: cover;
     background-position: center bottom;
 }
-/*div botao*/
-#containerbtn{
-    display: block;
-    background-color: var(--corm1);
-    border-radius: 0px 0px 10px 10px;
-    box-shadow: 0px 5px 10px var(--corm5);
-}
-#containerbtn:hover{
-    cursor: pointer;
-}
-#containerbtn h1{
-    color: var(--corm4);
-    text-align: center;
-    text-decoration: none;
-    padding: 25px;
-}
 
 /*formulário*/
 #containerform{
-    display: none;
+    display: block;
 }
 form{
     display: flex;
